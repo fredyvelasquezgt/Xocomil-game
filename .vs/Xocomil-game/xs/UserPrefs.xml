@@ -1,17 +1,15 @@
 ﻿<Properties StartupConfiguration="{11B24754-FB68-7868-5DD7-D41973A54920}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TerrainDemoScene_URP/Notes/Layers.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerMovement.cs">
     <Files>
-      <File FileName="Assets/TerrainDemoScene_URP/Notes/Layers.txt" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="54" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Xocomil-game" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="TerrainDemoScene_URP" expanded="True">
-                <Node name="Notes" expanded="True">
-                  <Node name="Layers.txt" selected="True" />
-                </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="PlayerMovement.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -21,7 +19,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6927c15f-a4cc-422e-aa26-4e1f4f002908" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="26c9ecaa-c058-4809-8c6f-7e1ef1f3e763" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
