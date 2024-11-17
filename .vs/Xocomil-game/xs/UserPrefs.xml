@@ -1,18 +1,21 @@
 ﻿<Properties StartupConfiguration="{11B24754-FB68-7868-5DD7-D41973A54920}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraFollow.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Portal.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerMovement.cs" Line="113" Column="1" />
-      <File FileName="Assets/Scripts/BackgroundMusic.cs" Line="35" Column="1" />
-      <File FileName="Assets/Scripts/EnemyChase.cs" Line="13" Column="61" />
-      <File FileName="Assets/Scripts/CameraFollow.cs" Line="19" Column="49" />
+      <File FileName="Assets/Scripts/BackgroundMusic.cs" />
+      <File FileName="Assets/Scripts/EnemyChase.cs" />
+      <File FileName="Assets/Scripts/CameraFollow.cs" Line="6" Column="2" />
+      <File FileName="Assets/Stylized Ocean Materials/Shader/Water_Ocean_03.shader" Line="26" Column="13" />
+      <File FileName="Assets/Scripts/Portal.cs" Line="18" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Xocomil-game" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="CameraFollow.cs" selected="True" />
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
+              <Node name="Stylized Ocean Materials" expanded="True">
+                <Node name="Shader" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -22,7 +25,6 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e88b4d75-0a0b-4148-9018-d819c951fc32" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

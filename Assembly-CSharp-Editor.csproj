@@ -69,10 +69,12 @@
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/CreaseShadingEditor.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs" />
+    <Compile Include="Assets/IgniteCoders/Simple Water Shader/Info/Scripts/Editor/ReadmeEditor.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/EdgeDetectionEditor.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/AntialiasingEditor.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/BloomAndFlaresEditor.cs" />
     <Compile Include="Assets/Blink/Art/Characters/LowPoly/Editor/MaterialTilingOffset.cs" />
+    <Compile Include="Assets/Water Float/Script/Editor/WF_Inspector.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs" />
     <Compile Include="Assets/NatureStarterKit2/Editor/ImageEffects/DepthOfFieldEditor.cs" />
   </ItemGroup>

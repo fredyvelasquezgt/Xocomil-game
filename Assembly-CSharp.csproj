@@ -69,6 +69,7 @@
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
+    <Compile Include="Assets/Scripts/Portal.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
@@ -101,10 +102,13 @@
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets/Water Float/Script/WaterFloat.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
+    <Compile Include="Assets/IgniteCoders/Simple Water Shader/Info/Scripts/Readme.cs" />
+    <Compile Include="Assets/IgniteCoders/Simple Water Shader/Resources/WaterReflection.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
     <Compile Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
@@ -147,12 +151,15 @@
     <None Include="Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Shaders/ProjectorLight.shader" />
     <None Include="Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Shaders/ProjectorMultiply.shader" />
     <None Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader" />
+    <None Include="Assets/Stylized Ocean Materials/Shader/Water_Ocean_01.shader" />
     <None Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/frag_ao.cginc" />
+    <None Include="Assets/Stylized Ocean Materials/Shader/Water_Ocean_06.shader" />
     <None Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader" />
     <None Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
     <None Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/VignettingShader.shader" />
     <None Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader" />
+    <None Include="Assets/Stylized Ocean Materials/Shader/Water_Ocean_02.shader" />
     <None Include="Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Guidelines.txt" />
     <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt" />
     <None Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader" />
@@ -163,6 +170,7 @@
     <None Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
     <None Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/SunShaftsComposite.shader" />
+    <None Include="Assets/Stylized Ocean Materials/Shader/Water_Ocean_04.shader" />
     <None Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
     <None Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/TwirlEffect.shader" />
@@ -170,6 +178,8 @@
     <None Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Apply.shader" />
     <None Include="Assets/laxer tree pkg/README.txt" />
     <None Include="Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Shaders/ToonLitOutline.shader" />
+    <None Include="Assets/Stylized Ocean Materials/Shader/Water_Ocean_05.shader" />
+    <None Include="Assets/Stylized Ocean Materials/Shader/Water_Ocean_03.shader" />
     <None Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation.shader" />
     <None Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
@@ -231,6 +241,7 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
     <None Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets/Stylized Ocean Materials/Shader/Water_Ocean_01_Smooth.shader" />
     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
     <None Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance.shader" />
     <None Include="Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader" />
