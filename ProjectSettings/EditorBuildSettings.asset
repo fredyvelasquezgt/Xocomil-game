@@ -11,4 +11,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/L2.unity
     guid: a5f8ba5b3135f4481b69ddb58da029e3
+  - enabled: 1
+    path: Assets/Scenes/Death.unity
+    guid: 9c6e8de4f0aeb4e2587a47554770ab47
+  - enabled: 1
+    path: Assets/Scenes/H1.unity
+    guid: 3f61edcb22fa740679f8f23a63cdfda2
+  - enabled: 1
+    path: Assets/Scenes/H2.unity
+    guid: 39b79f6bf2d9f4f2a9aebaf573d4f2c5
+  - enabled: 1
+    path: Assets/Scenes/H3.unity
+    guid: 62050fc4e33e84e0c88fddabdc3dd030
+  - enabled: 1
+    path: Assets/Scenes/H4.unity
+    guid: 38559b00f70e24f7781b3ef427c3f439
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 64170ddd8fca4474c9131980a82fd875
+  - enabled: 1
+    path: Assets/Scenes/Victory.unity
+    guid: c2fcec079a37d4973be9e1307784ba61
+  - enabled: 1
+    path: Assets/Scenes/Instructions.unity
+    guid: 4dcb99a567e124493802eecd8a190646
   m_configObjects: {}

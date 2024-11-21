@@ -6,14 +6,16 @@
       <File FileName="Assets/Scripts/EnemyChase.cs" />
       <File FileName="Assets/Scripts/CameraFollow.cs" Line="6" Column="2" />
       <File FileName="Assets/Stylized Ocean Materials/Shader/Water_Ocean_03.shader" Line="26" Column="13" />
-      <File FileName="Assets/Scripts/Portal.cs" Line="18" Column="2" />
+      <File FileName="Assets/Scripts/Portal.cs" Line="22" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Xocomil-game" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
-              <Node name="Scripts" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Portal.cs" selected="True" />
+              </Node>
               <Node name="Stylized Ocean Materials" expanded="True">
                 <Node name="Shader" expanded="True" />
               </Node>
@@ -25,6 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2abbbe16-0210-4fb6-8daa-9dfac1935bfb" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

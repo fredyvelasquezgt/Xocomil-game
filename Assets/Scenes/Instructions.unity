@@ -915,8 +915,6 @@ MonoBehaviour:
     Atacar:
     Tecla P
 
-    Tomar cosas: O
-
 '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -1243,6 +1241,7 @@ GameObject:
   - component: {fileID: 1844939468}
   - component: {fileID: 1844939467}
   - component: {fileID: 1844939466}
+  - component: {fileID: 1844939469}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -1313,7 +1312,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1844939467}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1844939469}
+        m_TargetAssemblyTypeName: StartButton, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1844939467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1352,6 +1363,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1844939464}
   m_CullTransparentMesh: 1
+--- !u!114 &1844939469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844939464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 923dde30574f34a44a8e5168435d13f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameSceneName: Menu
+  gameMusicClip: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

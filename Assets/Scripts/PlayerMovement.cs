@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
     private float gravity = 20f; // Gravedad para el personaje
     [SerializeField]
     private AudioClip grassStepSound; // Sonido de caminar sobre grama
+    [SerializeField]
+    private Collider punchCollider; // Collider para el golpe
 
     private CharacterController characterController;
     private Animator animator;
@@ -38,6 +40,12 @@ public class PlayerMovement : MonoBehaviour
         if (audioSource == null)
         {
             Debug.LogError("AudioSource component not found on " + gameObject.name);
+        }
+
+        // Asegúrate de que el collider del golpe esté desactivado al inicio
+        if (punchCollider != null)
+        {
+            punchCollider.enabled = false;
         }
     }
 
@@ -107,6 +115,44 @@ public class PlayerMovement : MonoBehaviour
         if (isJumping && characterController.isGrounded)
         {
             isJumping = false;
+        }
+
+        // Detectar si el jugador presiona la tecla "P" para ejecutar el puñetazo
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            animator.SetTrigger("PunchRight"); // Asegúrate de que exista un Trigger llamado "PunchRight" en el Animator
+            EnablePunchCollider(); // Activar el collider del golpe
+        }
+    }
+
+    // Activar el collider del golpe
+    private void EnablePunchCollider()
+    {
+        if (punchCollider != null)
+        {
+            punchCollider.enabled = true;
+            // Llamar a un método para desactivar el collider después de un tiempo
+            StartCoroutine(DisablePunchCollider());
+        }
+    }
+
+    // Desactivar el collider del golpe después de un pequeño retraso
+    private IEnumerator DisablePunchCollider()
+    {
+        yield return new WaitForSeconds(0.3f); // Tiempo durante el cual el collider está activo
+        if (punchCollider != null)
+        {
+            punchCollider.enabled = false;
+        }
+    }
+
+    // Detectar la colisión del golpe
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Enemy"))
+        {
+            // Desaparecer al enemigo
+            Destroy(other.gameObject);
         }
     }
 }
